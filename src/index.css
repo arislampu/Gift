@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Lora", "Georgia", serif;
+  --color-brand-bg: #FFF5F7;
+  --color-brand-text: #8A6A70;
+  --color-brand-accent: #FF85A1;
+  --color-brand-blush: #FFE3E8;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family: var(--font-sans);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}

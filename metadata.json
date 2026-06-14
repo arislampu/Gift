@@ -1,0 +1,8 @@
+{
+  "name": "Lily Birthday",
+  "description": "A cute interactive birthday website",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
